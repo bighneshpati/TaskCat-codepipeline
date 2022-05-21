@@ -1,6 +1,6 @@
 project:
-  name: Atlan CLoud Formation testing using Taskcat
-  owner: bighneshpati@gmail.com
+  name: quickstart-amazon-eks
+  owner: quickstart-eng@amazon.com 
   shorten_stack_name: true
   regions:
   - me-south-1
