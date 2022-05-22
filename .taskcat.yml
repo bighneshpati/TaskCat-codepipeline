@@ -1,10 +1,10 @@
 project:
   name: quickstart-amazon-eks
-  owner: quickstart-eng@amazon.com 
+  owner: quickstart-eng@amazon.com
   shorten_stack_name: true
   regions:
   - me-south-1
-  template: templates/sqs.yml
+  template: templates/amazon-eks-entrypoint-new-vpc.template.yaml
   parameters:
     RemoteAccessCIDR: 10.0.0.0/16
     QSS3BucketName: $[taskcat_autobucket]
