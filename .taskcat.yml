@@ -3,7 +3,9 @@ project:
   owner: quickstart-eng@amazon.com
   shorten_stack_name: true
   regions:
-  - me-south-1
+  - ap-south-1
+  - us-east-1
+  - ap-east-1
   template: templates/amazon-eks-entrypoint-new-vpc.template.yaml
   parameters:
     RemoteAccessCIDR: 10.0.0.0/16
